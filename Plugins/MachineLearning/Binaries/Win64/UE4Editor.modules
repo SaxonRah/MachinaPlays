@@ -1,0 +1,8 @@
+{
+	"Changelist" : 3039270,
+	"BuildId" : "",
+	"Modules" : 
+	{
+		"MachineLearning" : "UE4Editor-MachineLearning.dll"
+	}
+}
