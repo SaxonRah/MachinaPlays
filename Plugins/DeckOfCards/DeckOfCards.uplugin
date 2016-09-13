@@ -17,7 +17,7 @@
 	"Modules": [
 		{
 			"Name": "DeckOfCards",
-			"Type": "Developer",
+			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
 	]
