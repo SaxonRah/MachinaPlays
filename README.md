@@ -5,6 +5,8 @@ This contains 2 plugins and an unreal engine 4 project that combines the two. Th
 
 We will try and feed it generative labeled data and predict the ranks of any given hand of cards.
 
+Note: I'm going to clarify something, Classifying a set of 5 cards to a poker hand rank is a pretty useless task and is a good example of a bad problem to apply NN with. This is the point.
+
 Relevant UnrealEngine4 forum thread
 https://forums.unrealengine.com/showthread.php?113783-Neural-Network-A-journey-into-the-mind&p=581938&viewfull=1#post581938
 
