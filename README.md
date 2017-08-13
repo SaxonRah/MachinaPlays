@@ -1,4 +1,6 @@
 # MachinaPlays
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FSaxonRah%2FMachinaPlays.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FSaxonRah%2FMachinaPlays?ref=badge_shield)
+
 An Unreal Engine 4 Machine Learning Project. The default project is a ANN classifying poker hands. Although, there might be future machine learning things.
 
 This contains 2 plugins and an unreal engine 4 project that combines the two. The first plugin is a Deck of Cards, it has a plethora of functionality for the use of a deck of cards. It also contains a few simple poker game functions like anyalzing the rank of a poker hand. The second plugin is a simple but powerful artificial neural network.
@@ -32,3 +34,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FSaxonRah%2FMachinaPlays.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FSaxonRah%2FMachinaPlays?ref=badge_large)
