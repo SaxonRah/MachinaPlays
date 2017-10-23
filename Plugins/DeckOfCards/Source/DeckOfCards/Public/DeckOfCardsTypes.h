@@ -67,32 +67,6 @@ inline EStandardCardSuit& operator--(EStandardCardSuit& f, int32)
 	}
 }
 
-enum ControlType { BASE, UPPER_ARM, LOWER_ARM, WRIST };
-
-// Overload the ControlType++ operator
-inline ControlType& operator++(ControlType& eDOW, int)  // <--- note -- must be a reference
-{
-	const int i = static_cast<int>(eDOW) + 1;
-	eDOW = static_cast<ControlType>((i) % 4);
-	return eDOW;
-}
-
-// Overload the ControlType-- operator
-inline ControlType& operator--(ControlType& type, int)  // <--- note -- must be a reference
-{
-	const int i = static_cast<int>(type) - 1;
-
-	if (i < 0) // Check whether to cycle to last item if number goes below 0
-	{
-		type = static_cast<ControlType>(3);
-	}
-	else // Else set it to current number -1
-	{
-		type = static_cast<ControlType>((i) % 4);
-	}
-	return type;
-}
-
 UENUM(BlueprintType)
 enum class EStandardCardRank : uint8
 {
